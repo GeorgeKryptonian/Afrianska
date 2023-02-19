@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Gilroy';
+        font-weight: 300;
+        src: url('assets/fonts/Gilroy-Light.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        src: url('assets/fonts/Gilroy-Regular.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        src: url('assets/fonts/Gilroy-Medium.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        src: url('assets/fonts/Gilroy-Semibold.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Galien';
+        font-weight: 700;
+        src: url('assets/fonts/Galien-Bold.woff2') format('woff2');
+    }
+}

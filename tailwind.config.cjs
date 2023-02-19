@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,svelte}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gilroy: "'Gilroy'",
+        galien: "'Galien'",
+      },
+    },
   },
   plugins: [],
 }
