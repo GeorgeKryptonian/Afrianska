@@ -5,7 +5,7 @@
     import Contact from "@src/routes/contact/Contact.svelte";
 </script>
 
-<div class="wrapper font-gilroy">
+<div class="wrapper font-gilroy tracking-wider">
     <Router>
         <Route path="/Afrianska/" component={Home} />
         <Route path="/Afrianska/blog/" component={Blog} />
