@@ -17,7 +17,6 @@ module.exports = {
         'cornflower-blue': "#5A98D0",
       },
       screens: {
-        'xs': "320px",
         'sm': "480px",
         'xl': "1366px",
         '2xl': "1600px",
