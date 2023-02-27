@@ -1,20 +1,20 @@
 <script>
-    import footerLogo from "@images/icons/footerLogo.svg";
+    import footerLogo from '@images/icons/footerLogo.svg';
 
-    export let footerAdditionalClasses;
+    export let footerAdditionalClasses = '';
     let footerLists = {
         'About Us': [
             {text: 'About', link: '#'},
             {text: 'What We Do', link: '#'},
             {text: 'Project', link: '#'},
-            {text: 'How It Work With Us', link: '#'}
+            {text: 'How It Work With Us', link: '#'},
         ],
         'Follow Us': [
             {text: 'Instagram', link: '#'},
             {text: 'Facebook',  link: '#'},
             {text: 'LinkedIn', link: '#'},
-            {text: 'YouTube', link: '#'}
-        ]
+            {text: 'YouTube', link: '#'},
+        ],
     }
 </script>
 
