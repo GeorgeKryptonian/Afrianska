@@ -1,8 +1,8 @@
 <script>
-    import { Router, Route } from "svelte-routing";
-    import Home from "@src/routes/home/Home.svelte";
-    import Blog from "@src/routes/blog/Blog.svelte";
-    import Contact from "@src/routes/contact/Contact.svelte";
+    import { Router, Route } from 'svelte-routing';
+    import Home from '@src/routes/home/Home.svelte';
+    import Blog from '@src/routes/blog/Blog.svelte';
+    import Contact from '@src/routes/contact/Contact.svelte';
 </script>
 
 <div class="wrapper font-gilroy tracking-wider">
