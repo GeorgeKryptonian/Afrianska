@@ -1,4 +1,5 @@
 <script>
+    import Button from '@src/components/Button.svelte';
     import footerLogo from '@images/icons/footerLogo.svg';
 
     export let footerAdditionalClasses = '';
@@ -25,7 +26,7 @@
                 <h2 class="text-4xl font-semibold">Interested to work with our team?</h2>
                 <p class="opacity-60">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <button class="h-14 w-56 rounded-xl bg-cornflower-blue">Let’s Talk</button>
+            <Button text="Let's Talk" />
         </div>
         <hr class="my-24 opacity-40">
         <div class="space-y-16 md:pl-[107px] xl:pl-[214px]">
