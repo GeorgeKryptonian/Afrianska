@@ -4,12 +4,13 @@
     import burger from '@images/icons/burger.svg';
 
     let isHidden = true;
+    export let additionalHeaderClasses = '';
 </script>
 
-<header class="flex items-center justify-between p-5 sm:px-10 xl:px-20 xl:py-10">
+<header class="{additionalHeaderClasses} relative z-50 flex items-center justify-between p-5 sm:px-10 xl:px-20 xl:py-10">
     <img src={headerLogo} alt="Header Logo">
     <nav class="relative">
-        <div class:hidden={isHidden} class="absolute top-10 right-0 flex w-max flex-col rounded-md p-4 text-center text-white shadow-lg bg-water-blue space-y-4">
+        <div class:hidden={isHidden} class="absolute top-10 right-0 flex w-max flex-col rounded-md p-4 text-center text-white shadow-lg bg-water-blue gap-y-4">
             <Link class="hover:opacity-75" to="/Afrianska/">Home</Link>
             <Link class="hover:opacity-75" to="/Afrianska/blog/">Blog</Link>
             <Link class="hover:opacity-75" to="/Afrianska/contact/">Contact Us</Link>
