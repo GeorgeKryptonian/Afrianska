@@ -19,4 +19,4 @@ import Footer from '@src/components/Footer.svelte';
     <OurProjectSection additionalSectionClasses="mb-48" />
     <OurClientSection />
 </main>
-<Footer footerAdditionalClasses="bg-cornflower-blue" />
+<Footer additionalFooterClasses="bg-cornflower-blue" />
