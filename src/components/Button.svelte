@@ -2,7 +2,7 @@
     export let
         text = 'Default Text',
         sizeClasses = 'h-14 w-56',
-        additionalClasses = '';
+        additionalButtonClasses = '';
 </script>
 
-<button class="{additionalClasses} {sizeClasses} rounded-xl bg-cornflower-blue">{text}</button>
+<button class="{additionalButtonClasses} {sizeClasses} tracking-wider rounded-xl bg-cornflower-blue">{text}</button>
