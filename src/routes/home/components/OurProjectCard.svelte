@@ -12,12 +12,12 @@
         additionalImageClasses = '';
 </script>
 
-<div class="{additionalCardClasses} {sizeClasses} max-sm:text-center relative bg-cover bg-center bg-no-repeat rounded-xl" style="background-image: url({backgroundImagePath})">
+<div class="{additionalCardClasses} {sizeClasses} max-sm:text-center relative bg-cover bg-center bg-no-repeat rounded-xl group transition-all duration-300 hover:translate-y-1 hover:translate-x-1" style="background-image: url({backgroundImagePath})">
     <div class="{additionalPaddingClasses} {additionalGradientClasses} w-full h-full rounded-xl">
         {#if imagePath}
             <img class="{additionalImageClasses}" src={imagePath} alt="Unavailable card image">
         {/if}
-        <div class="text-white text-midnight-blue space-y-4">
+        <div class="text-white duration-300 text-midnight-blue space-y-4 group-hover:translate-y-1">
             <h3 class="font-medium text-[28px]">{heading}</h3>
             <p class="opacity-80">{description}</p>
         </div>

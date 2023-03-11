@@ -8,10 +8,12 @@
         {imagePath: '', link: '#', alt: 'Client Logo 6'},
         {imagePath: '', link: '#', alt: 'Client Logo 7'},
     ]
+
+    export let additionalSectionClasses = '';
 </script>
 
-<section class="p-6 text-white bg-cornflower-blue space-y-28 md:rounded-tl-[50px] md:px-24 md:pt-12 md:pb-16 lg:rounded-tl-[100px] xl:rounded-tl-[200px] xl:px-52 xl:pt-24 xl:pb-32">
-    <div class="flex max-lg:flex-col max-lg:text-center max-lg:space-y-8 lg:space-x-24">
+<section class="{additionalSectionClasses}  p-6 text-white bg-cornflower-blue space-y-28 md:rounded-tl-[50px] md:px-24 md:pt-12 md:pb-16 lg:rounded-tl-[100px] xl:rounded-tl-[200px] xl:px-52 xl:pt-24 xl:pb-32">
+    <div class="flex max-lg:flex-col max-lg:text-center max-lg:gap-y-8 lg:gap-x-24">
         <h2 class="text-4xl font-semibold leading-[46px] lg:w-2/3 xl:w-1/2">Our Beloved Client</h2>
         <p class="opacity-60">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </div>

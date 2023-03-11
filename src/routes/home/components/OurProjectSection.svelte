@@ -4,11 +4,13 @@
     import sparkliteApp from '@images/photos/sparkliteApp.jpg';
     import carRapetitionApp from '@images/photos/carRapetitionApp.jpg';
     import circleBurst from '@images/vectors/circleBurst.svg';
+
+    export let additionalSectionClasses = '';
 </script>
 
-<section class="px-6 md:px-24 xl:px-52">
+<section class="{additionalSectionClasses} px-6 md:px-24 xl:px-52">
     <div class="grid gap-y-24">
-        <div class="flex max-lg:flex-col max-lg:text-center max-lg:space-y-8 text-midnight-blue lg:space-x-24">
+        <div class="flex max-lg:flex-col max-lg:text-center max-lg:gap-y-8 text-midnight-blue lg:gap-x-24">
             <h2 class="text-4xl font-semibold leading-[46px] lg:w-2/3 xl:w-1/2">Our Finished Project</h2>
             <p class="opacity-60">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
