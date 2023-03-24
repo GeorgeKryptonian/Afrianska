@@ -18,7 +18,7 @@
 </script>
 
 <article class="{additionalArticleClasses} {sizeClasses} flex gap-5 text-midnight-blue">
-    <img src={articleData.imagePath} alt="Unavailable image">
+    <img class="object-cover" src={articleData.imagePath} alt="Unavailable image">
     <div class="space-y-4">
         <h3 class="{additionalHeadingClasses} font-galien">{articleData.heading}</h3>
         <p class="text-black/60">{articleData.description}</p>
@@ -31,12 +31,8 @@
                 </div>
             </div>
             <div class="flex gap-x-8">
-                <a href="#">
-                    <img class="cursor-pointer hover:opacity-75" src={bookmarks} alt="Bookmarks Icon">
-                </a>
-                <a href="#">
-                    <img class="cursor-pointer hover:opacity-75" src={share} alt="Share Icon">
-                </a>
+                <img class="cursor-pointer hover:opacity-75" src={bookmarks} alt="Bookmarks Icon">
+                <img class="cursor-pointer hover:opacity-75" src={share} alt="Share Icon">
             </div>
         </div>
     </div>
