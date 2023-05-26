@@ -1,4 +1,5 @@
 <script>
+    import { blur } from 'svelte/transition';
     import bookmarks from '@images/icons/bookmarks.svg';
     import share from '@images/icons/share.svg';
 
@@ -17,7 +18,7 @@
         additionalArticleClasses = '';
 </script>
 
-<article class="{additionalArticleClasses} {sizeClasses} flex gap-5 text-midnight-blue">
+<article in:blur={{duration: 300, delay: 150 * articleData.id}} class="{additionalArticleClasses} {sizeClasses} flex gap-5 text-midnight-blue">
     <img class="object-cover" src={articleData.imagePath} alt="Unavailable image">
     <div class="space-y-4">
         <h3 class="{additionalHeadingClasses} font-galien">{articleData.heading}</h3>
